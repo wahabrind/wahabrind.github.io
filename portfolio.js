@@ -11,7 +11,18 @@ var elementsToShow6 = document.querySelectorAll('.bg-progress-bar2');
 var elementsToShow7 = document.querySelectorAll('.my-img-img'); 
 var elementsToShow8 = document.querySelectorAll('.who-guy'); 
 var elementsToShow9 = document.querySelectorAll('.counter');
-var elementsToShow10 = document.querySelectorAll('.card');
+var elementsToShow11 = document.querySelectorAll('.ed1');
+var elementsToShow12 = document.querySelectorAll('.ed2');
+var elementsToShow13 = document.querySelectorAll('.ed3');
+var elementsToShow14 = document.querySelectorAll('.ed4');
+var elementsToShow15 = document.querySelectorAll('.ed5');
+var elementsToShow16 = document.querySelectorAll('.ed6');
+var elementsToShow17 = document.querySelectorAll('.ed7');
+var elementsToShow18 = document.querySelectorAll('.my_name');
+var elementsToShow19 = document.querySelectorAll('.pr1');
+var elementsToShow20 = document.querySelectorAll('.pr2');
+var elementsToShow21 = document.querySelectorAll('.pr3');
+var elementsToShow22 = document.querySelectorAll('.pr4');
 
 // Call the loop for the first time
 function loop() {
@@ -91,11 +102,100 @@ function loop() {
       });
  
 
-      Array.prototype.forEach.call(elementsToShow10, function(element){
+      Array.prototype.forEach.call(elementsToShow11, function(element){
+        if (isElementInViewport(element)) {
+          element.classList.add('animate10');
+        } else {
+          element.classList.remove('animate10');
+        }
+      });
+ 
+      Array.prototype.forEach.call(elementsToShow12, function(element){
         if (isElementInViewport(element)) {
           element.classList.add('animate9');
         } else {
           element.classList.remove('animate9');
+        }
+      });
+ 
+      Array.prototype.forEach.call(elementsToShow13, function(element){
+        if (isElementInViewport(element)) {
+          element.classList.add('animate11');
+        } else {
+          element.classList.remove('animate11');
+        }
+      });
+ 
+      Array.prototype.forEach.call(elementsToShow14, function(element){
+        if (isElementInViewport(element)) {
+          element.classList.add('animate10');
+        } else {
+          element.classList.remove('animate10');
+        }
+      });
+ 
+      Array.prototype.forEach.call(elementsToShow15, function(element){
+        if (isElementInViewport(element)) {
+          element.classList.add('animate9');
+        } else {
+          element.classList.remove('animate9');
+        }
+      });
+ 
+      Array.prototype.forEach.call(elementsToShow16, function(element){
+        if (isElementInViewport(element)) {
+          element.classList.add('animate11');
+        } else {
+          element.classList.remove('animate11');
+        }
+      });
+
+      
+      Array.prototype.forEach.call(elementsToShow17, function(element){
+        if (isElementInViewport(element)) {
+          element.classList.add('animate10');
+        } else {
+          element.classList.remove('animate10');
+        }
+      });
+      
+      Array.prototype.forEach.call(elementsToShow18, function(element){
+        if (isElementInViewport(element)) {
+          element.classList.add('animate4');
+        } else {
+          element.classList.remove('animate4');
+        }
+      });
+  
+      Array.prototype.forEach.call(elementsToShow19, function(element){
+        if (isElementInViewport(element)) {
+          element.classList.add('animate10');
+        } else {
+          element.classList.remove('animate10');
+        }
+      });
+  
+      Array.prototype.forEach.call(elementsToShow20, function(element){
+        if (isElementInViewport(element)) {
+          element.classList.add('animate11');
+        } else {
+          element.classList.remove('animate11');
+        }
+      });
+  
+      Array.prototype.forEach.call(elementsToShow21, function(element){
+        if (isElementInViewport(element)) {
+          element.classList.add('animate10');
+        } else {
+          element.classList.remove('animate10');
+        }
+      });
+  
+      Array.prototype.forEach.call(elementsToShow22, function(element){
+        if (isElementInViewport(element)) {
+          element.classList.add('animate11');
+        } else {
+          element.classList.remove('animate11');
         }
       });
  

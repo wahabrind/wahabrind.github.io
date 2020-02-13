@@ -257,6 +257,15 @@ textarea {
 .animate9{
     animation: up 2s;
 }
+
+.animate10{
+    animation: right 2s;
+}
+
+.animate11{
+    animation: left 2s;
+}
+
 /* KEYFRAMES */
 
 @keyframes fromleft {
@@ -354,10 +363,31 @@ textarea {
 
 @keyframes up{
     0%{
-        opacity: 0;
-        transform: translateY(5px);
+        opacity: 0.5;
+        transform: translateY(30px);
     }
     100%{
         opacity: 1;
     }
 }
+
+@keyframes right{
+    0%{
+        opacity: 0.5;
+        transform: translateX(-30px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes left{
+    0%{
+        opacity: 0.5;
+        transform: translateX(30px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
