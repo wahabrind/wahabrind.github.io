@@ -164,7 +164,8 @@ textarea {
     transform: translateY(-25px);
 }
 
-.up-icon:hover {
+.up-icon:
+ {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
     transform: translateY(-28px);
 }
@@ -181,10 +182,7 @@ textarea {
     transition: all 1s;
     width: 200px;
 }
-.counter:hover{
-    box-shadow: 5px 5px 20px rgba(0, 0,0,0.6);
-    transform: translateY(-3px);
-}
+
 
 .count-title {
     font-size: 40px;
@@ -226,18 +224,18 @@ textarea {
 }
 
 .animate1 {
-    animation: rotate 2s;
+    animation: rotate 1s;
 }
 .animate2 {
-    animation: rotate 2s;
+    animation: rotate 1s;
     animation-delay: 0.1s;
 }
 .animate3 {
-    animation: rotate 2s;
+    animation: rotate 1s;
     animation-delay: 0.2s;
 }
 .animate4 {
-    animation: rotate 2s;
+    animation: rotate 1s;
     animation-delay: 0.3s;
 }
 .animate5{
@@ -251,20 +249,14 @@ textarea {
     animation-delay: 2s;
 }
 .animate8{
-    animation: appear 2s;
+    animation: appear 1s;
 }
 
 .animate9{
-    animation: up 2s;
+    animation: up 1s;
 }
 
-.animate10{
-    animation: right 2s;
-}
 
-.animate11{
-    animation: left 2s;
-}
 
 /* KEYFRAMES */
 
@@ -364,30 +356,9 @@ textarea {
 @keyframes up{
     0%{
         opacity: 0.5;
-        transform: translateY(30px);
+        transform: translateY(50px);
     }
     100%{
         opacity: 1;
     }
 }
-
-@keyframes right{
-    0%{
-        opacity: 0.5;
-        transform: translateX(-30px);
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
-@keyframes left{
-    0%{
-        opacity: 0.5;
-        transform: translateX(30px);
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
