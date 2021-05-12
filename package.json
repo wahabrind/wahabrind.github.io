@@ -19,7 +19,7 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
     "jquery-waypoints": "^2.0.5",
-    "nodemailer": "^6.3.1",
+    "nodemailer": "^6.4.16",
     "php": "0.0.1",
     "popper.js": "^1.12.9",
     "waypoints": "^4.0.1"
